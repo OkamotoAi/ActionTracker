@@ -7,28 +7,23 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
-
 .as-console-wrapper { max-height: 4em !important; }
 
-.datetimewrapper {
+.datetime-wrapper {
   position: relative;
   padding: 0;
   margin: 0;
   width: max-content;
 }
 
-.datetimewrapper input {
+.datetime-wrapper input {
   padding: 0.5rem;
   border: thin solid grey;
   border-radius: 0.25rem;
 }
 
 /* adornment */
-.datetimewrapper::after {
+.datetime-wrapper::after {
   /* .fa-solid */
   font-family: "Font Awesome 6 Free";
   font-weight: 900;
